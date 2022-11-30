@@ -1,0 +1,35 @@
+.footer{
+    justify-content: space-between;
+    background-color: #222;
+    color: #FFF;
+    padding: 3em;
+    text-align: center;
+}
+
+.redes_sociais{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.redes_sociais li {
+    margin: 0 1em;
+}
+
+.redes_sociais li:hover {
+    color: #FFBB33;   
+}
+
+.redes_sociais svg {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.copy_right {
+    margin-top: 2em;
+}
+
+.copy_right span {
+    font-weight: bold;
+    color: #ffbb33;
+}
