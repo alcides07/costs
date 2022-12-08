@@ -14,15 +14,15 @@ cd Costs/
 npm install
 ```
 
-#### Inicialize a aplicação front-end
+### Inicialize a aplicação front-end
 ```
 npm start
 ```
 
-#### Inicialize o JSON Server como back-end
+### Abra outro terminal e inicialize o JSON Server como back-end
 ```
 npm run backend
 ```
 
-#### Acesse a aplicação
-##### [Aplicação](http://localhost:3000/)
+### Acesse a aplicação
+#### [Aplicação](http://localhost:3000/)
