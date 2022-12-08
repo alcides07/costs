@@ -4,7 +4,7 @@ import { useNavigate  } from "react-router-dom"
 
 function NovoProjeto(){
 
-    const navigate = useNavigate()
+    const navigate = useNavigate();
 
     function handle_submit(projeto){
 
@@ -19,8 +19,9 @@ function NovoProjeto(){
             body: JSON.stringify(projeto)
         })  
         .then(resposta => resposta.json())
-        .then((dados) => {console.log(dados)})
-        navigate("/projetos", {message: "Projeto criado com sucesso!"})
+        .then((dados) => {
+            navigate("/projetos", {message: "Projeto criado com sucesso!"})
+        })
         .catch(erro => console.log(erro))
     }
     
@@ -28,7 +29,7 @@ function NovoProjeto(){
         <div className = {styles.novo_projeto_container}>
             <h1> Criação de Projeto </h1>
             <p> Crie seu projeto agora mesmo! </p>
-            <FormProjeto submissao = {handle_submit} btnText = "Criar Projeto"/>
+            <FormProjeto handle_submit = {handle_submit} btnText = "Criar Projeto"/>
         </div>
     )
 }

@@ -37,7 +37,7 @@ function FormProjeto({handle_submit, btnText, dados_projeto}){
     function handleCategoria(evento) {
         set_projeto ({ ...projeto, categoria: {
             id: evento.target.value,
-            name: evento.target.options[evento.target.selectedIndex].text
+            nome: evento.target.options[evento.target.selectedIndex].text
         }})
     }
 
@@ -46,10 +46,10 @@ function FormProjeto({handle_submit, btnText, dados_projeto}){
             <Input
                 type = "text"
                 text = "Nome do Projeto"
-                name = "name"
+                name = "nome"
                 placeholder = "Insira o nome do projeto"
                 handleOnChange = {handleChange}
-                value = {projeto.name ? projeto.name : ""}
+                value = {projeto.nome ? projeto.nome : ""}
             />
 
             <Input
