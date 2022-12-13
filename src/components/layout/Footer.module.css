@@ -16,7 +16,11 @@
     margin: 0 1em;
 }
 
-.redes_sociais li:hover {
+.redes_sociais li a {
+    color: #FFF;
+}
+
+.redes_sociais li a:hover {
     color: #FFBB33;   
 }
 

@@ -1,13 +1,23 @@
 {
   "projetos": [
-    
     {
+      "nome": "Projeto 1",
+      "orcamento": "5",
       "categoria": {
-        "id": "Selecione uma opção",
-        "nome": "Selecione uma opção"
+        "id": "2",
+        "nome": "Desenvolvimento"
       },
-      "orcamento": "565",
-      "nome": "hfht",
+      "custo": 0,
+      "servicos": [],
+      "id": 1
+    },
+    {
+      "nome": "Projeto 2",
+      "orcamento": "5454",
+      "categoria": {
+        "id": "3",
+        "nome": "Design"
+      },
       "custo": 0,
       "servicos": [],
       "id": 2

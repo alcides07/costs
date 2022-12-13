@@ -5,9 +5,9 @@ function Footer (){
     return (
         <footer className = {styles.footer}> 
             <ul className = {styles.redes_sociais}>
-                <li> <FaFacebook/> </li>
-                <li> <FaInstagram/> </li>
-                <li> <FaLinkedin/> </li>
+               <li> <a href = "https://www.facebook.com"> <FaFacebook/> </a> </li> 
+               <li> <a href = "https://www.instagram.com"> <FaInstagram/> </a> </li> 
+               <li> <a href = "https://www.linkedin.com"> <FaLinkedin/> </a> </li> 
             </ul>
             <p className = {styles.copy_right}> 
                 <span> Costs </span> &copy; 2022 
