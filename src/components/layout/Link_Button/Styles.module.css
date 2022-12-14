@@ -1,4 +1,4 @@
-.btn{
+.botao{
     background-color: #222;
     color: #FFF;
     padding: 0.5em 1em;
@@ -7,6 +7,6 @@
     border-radius: 0.3em;
 }
 
-.btn:hover{
+.botao:hover{
     color: #FFBB33;
 }

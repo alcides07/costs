@@ -1,11 +1,11 @@
 import { useEffect, useState} from "react"
 
-import Input from "../form/Input"
-import Select from "../form/Select"
-import Submit from "../form/Submit"
-import styles from "./FormProjeto.module.css"
+import Input from "../../form/Input/Index"
+import Select from "../../form/Select/Index"
+import Submit from "../../form/Submit/Index"
+import styles from "./Styles.module.css"
 
-function FormProjeto({handle_submit, btnText, dados_projeto}){
+function Form_Projeto({handle_submit, btnText, dados_projeto}){
 
     const [categorias, set_categorias] = useState([])
     const [projeto, set_projeto] = useState(dados_projeto || {})
@@ -73,4 +73,4 @@ function FormProjeto({handle_submit, btnText, dados_projeto}){
     )
 }
 
-export default FormProjeto
+export default Form_Projeto

@@ -1,0 +1,50 @@
+.projeto_detalhe{
+    padding: 2em
+}
+
+.projeto_detalhe h1,
+.projeto_detalhe h2,
+.projeto_detalhe p{
+    margin-bottom: 0.5em;
+}
+
+.projeto_detalhe h1{
+    background-color: #222;
+    color: #FFBB33;
+    padding: 0.4em;
+    border-radius: 0.15em;
+}
+
+.projeto_detalhe span{
+    font-weight: bold;
+}
+
+.detalhes_container,
+.servicos_form_container{
+    border-bottom: 1px solid #7A7A7A;
+    margin-bottom: 1.2em;
+    padding-bottom: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.botao{
+    background-color: #222;
+    color: #FFF;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 0.3em;
+    cursor: pointer;
+    max-height: 40px;
+    border: none;
+}
+
+.botao:hover{
+    color: #FFBB33;
+}
+
+.informacoes_projeto{
+    width: 100%;
+}

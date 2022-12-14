@@ -1,13 +1,14 @@
-import styles from "./Projetos.module.css"
 import { useLocation } from "react-router-dom"
 import { useState, useEffect } from "react"
 
-import Mensagem from "../layout/Mensagem"
-import Container from "../layout/Container"
-import LinkButton from "../layout/LinkButton"
-import Loading from "../layout/Loading"
+import styles from "./Styles.module.css"
 
-import CardProjeto from "../projeto/CardProjeto"
+import Mensagem from "../../layout/Mensagem/Index"
+import Container from "../../layout/Container/Index"
+import LinkButton from "../../layout/Link_Button/Index"
+import Loading from "../../layout/Loading/Index"
+
+import CardProjeto from "../../projeto/Card_Projeto/Index"
 
 function Projetos(){
 

@@ -1,13 +1,13 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom' 
-import Home from "./components/pages/Home"
-import Sobre from "./components/pages/Sobre"
-import Contato from "./components/pages/Contato"
-import NovoProjeto from "./components/pages/NovoProjeto"
-import Projetos from "./components/pages/Projetos"
-
-import Navbar from "./components/layout/Navbar"
-import Footer from "./components/layout/Footer"
-import Container from './components/layout/Container'
+import Home from "./components/pages/Home/Index"
+import Sobre from "./components/pages/Sobre/Index"
+import Contato from "./components/pages/Contato/Index"
+import NovoProjeto from "./components/pages/Novo_Projeto/Index"
+import Projetos from "./components/pages/Projetos/Index"
+import Navbar from "./components/layout/Navbar/Index"
+import Footer from "./components/layout/Footer/Index"
+import Container from './components/layout/Container/Index'
+import Projeto_detalhes from './components/pages/Projeto_Detalhes/Index'
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
           <Route path = "/contato" element = {<Contato/>} > </Route>
           <Route path = "/novoprojeto" element = {<NovoProjeto/>} > </Route>
           <Route path = "/projetos" element = {<Projetos/>} > </Route>
+          <Route path = "/projeto/:id" element = {<Projeto_detalhes/>} > </Route>
         </Routes>
       </Container>
       <Footer/>

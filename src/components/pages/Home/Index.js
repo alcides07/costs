@@ -1,6 +1,6 @@
-import styles from "./Home.module.css"
-import savings from "../../img/savings.svg"
-import LinkButton from "../layout/LinkButton"
+import styles from "./Styles.module.css"
+import savings from "../../../img/savings.svg"
+import LinkButton from "../../layout/Link_Button/Index"
 
 function Home(){
     return (

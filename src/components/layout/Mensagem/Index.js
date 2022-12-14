@@ -1,4 +1,4 @@
-import styles from "./Mensagem.module.css"
+import styles from "./Styles.module.css"
 import {useState, useEffect} from "react"
 
 function Mensagem({tipo, msg}){

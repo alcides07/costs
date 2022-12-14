@@ -1,8 +1,8 @@
-import styles from "./CardProjeto.module.css"
+import styles from "./Styles.module.css"
 import {BsPencil, BsFillTrashFill} from "react-icons/bs"
 import { Link } from "react-router-dom";
 
-function CardProjeto({id, nome, orcamento, categoria, handleRemove}){
+function Card_Projeto({id, nome, orcamento, categoria, handleRemove}){
 
     const remover = (evento => {
         evento.preventDefault()
@@ -34,4 +34,4 @@ function CardProjeto({id, nome, orcamento, categoria, handleRemove}){
     )
 }
 
-export default CardProjeto;
+export default Card_Projeto;

@@ -1,5 +1,5 @@
-import FormProjeto from "../projeto/FormProjeto"
-import styles from "./NovoProjeto.module.css"
+import FormProjeto from "../../projeto/Form_Projeto/Index"
+import styles from "./Styles.module.css"
 import { useNavigate  } from "react-router-dom"
 
 function NovoProjeto(){
