@@ -23,7 +23,6 @@ function Mensagem({tipo, msg}){
 
     return (
         <>
-            {console.log(visibilidade)}
             {visibilidade && (
                 <div className = {`${styles.mensagem} ${styles[tipo]}`}>
                     {msg}
