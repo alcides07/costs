@@ -1,12 +1,12 @@
 # Costs
 ### Clone o repositório via HTTPS
 ```
-git clone https://github.com/alcides07/Costs.git
+git clone https://github.com/alcides07/costs.git
 ```
 
 ### Entre no diretório gerado
 ```
-cd Costs/
+cd costs/
 ```
 
 ### Instale as dependências do projeto
